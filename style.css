@@ -1,0 +1,228 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.container{ 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+}
+
+.login{
+    width: 412px;
+    height: 917px;
+    border: solid 1px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('fundo2.png');
+   
+}
+
+.login-prin{
+    width: 412px;
+    height: 917px;
+    border: solid 1px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('fundo1.png');
+   
+}
+.logo{
+    margin-left: 30px;
+    
+}
+
+.btn-google{
+    width: 350px;
+    height: 65px;
+    border: solid 1px #000;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.btn-google P{
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16pt;
+
+}
+.btn-google img{
+width: 37px;
+height: 37px;
+
+}
+.email input{
+    width: 350px;
+    height: 65px;
+    border: solid 3px #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ebebeb;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.email-reg input{
+    width: 350px;
+    height: 65px;
+    border: solid 3px #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ebebeb;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+.nome input{
+    width: 350px;
+    height: 65px;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ebebeb;
+    margin-bottom: 25px;
+}
+
+.senha input{
+    width: 350px;
+    height: 65px;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ebebeb;
+    margin-bottom: 25px;
+}
+.senha-reg input{
+    width: 350px;
+    height: 65px;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ebebeb;
+    margin-bottom: 25px;
+}
+
+.btn-login{
+    width: 350px;
+    height: 65px;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 31px;
+    
+}
+.btn-criar{
+    width: 350px;
+    height: 65px;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 31px;
+    
+}
+
+.email input::placeholder{
+    top: 8px;
+    left: 8px;
+    position: absolute;
+    font-family: "Inclusive Sans", sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.senha input:placeholder{
+    top: 8px;
+    left: 8px;
+    position: absolute;
+    font-family: "Inclusive Sans", sans-serif;
+    letter-spacing: 2px;
+
+}
+.email-reg input:placeholder{
+    top: 8px;
+    left: 8px;
+    position: absolute;
+    font-family: "Inclusive Sans", sans-serif;
+    letter-spacing: 2px;
+
+}
+.senha-reg input:placeholder{
+    top: 8px;
+    left: 8px;
+    position: absolute;
+    font-family: "Inclusive Sans", sans-serif;
+    letter-spacing: 2px;
+
+}
+.btn-login p{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 18pt;
+
+}
+.ou{
+    font-family: "Imprima", sans-serif;
+    color: #979797;
+}
+.redefinir{
+    font-family: "Inter", sans-serif;
+    color: #007fe6;
+    text-decoration: underline;
+    font-size: 11pt;
+    margin-bottom: 31px;
+
+
+}
+.criar{
+    font-family: "Inter", sans-serif;
+    color: #474747;
+    font-size: 11pt;
+}
+.btn-criar p{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 18pt;
+}
+.registro{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 18pt;
+    color: #fff;
+
+}
+
+
+
